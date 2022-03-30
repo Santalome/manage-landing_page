@@ -1,0 +1,138 @@
+:root{
+    --primary-text-color: rgb(36, 46, 82);
+    --orange-color: rgb(243, 97, 60);
+    --secondary-text-color: rgb(156, 159, 164);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing-wrapper{
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 120% 200%;
+}
+
+.header-wrapper{
+    padding: 50px 0px;
+}
+
+header{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.get-started_button{
+    background-color: var(--orange-color);
+    border-style: none;
+    padding: 12px 40px;
+    border-radius: 45px;
+    color: white;
+    font-weight: 600;
+}
+
+.landing{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    padding-top: 40px;
+}
+
+.landing-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.landing-left h1{
+    font-size: 4rem;
+    color: var(--primary-text-color);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.landing-left p{
+    width: 58%;
+    color: var(--secondary-text-color);
+    margin: 30px 0px;
+    line-height: 1.5;
+}
+
+.manage-wrapper{
+    margin-top: 150px;
+}
+
+.manage{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.manage-left h2{
+    font-size: 2.5rem;
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.manage-left p{
+    color: var(--secondary-text-color);
+    margin-top: 30px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card2, .card3{
+    margin-top: 40px;
+}
+
+.manage-flex{
+    width: 70%;
+}
+
+.manage-flex h3{
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.manage-flex p{
+    color: var(--secondary-text-color);
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.card span{
+    background-color: var(--orange-color);
+    padding: 12px 22px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
