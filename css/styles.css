@@ -136,3 +136,109 @@ header ul li a{
     color: white;
     font-weight: 600;
 }
+
+.pre-footer_wrapper{
+    background-color: var(--orange-color);
+    background-image: url('../images/bg-simplify-section-desktop.svg');
+    margin-top: 100px;
+    background-position: 180% 70%;
+    background-repeat: no-repeat;
+}
+
+.get-started_prefooter{
+    background-color: white;
+    color: var(--orange-color);
+}
+
+.pre-footer{
+    display: flex;
+    margin-top: 150px;
+    width: 80%;
+    height: 22vh;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pre-footer h2{
+    width: 50%;
+    font-size: 3rem;
+    color: white;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.footer-wrapper{
+    background-color: rgb(30, 30, 38);
+    color: white;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    width: 80%;
+    height: 50%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-flex{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-email p{
+    color: var(--secondary-text-color);
+    font-size: 0.8rem;
+    align-self: flex-end;
+}
+
+.input-flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-flex input{
+    width: 70%;
+    padding: 12px 12px;
+    border-radius: 40px;
+    border-style: none;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+.input-flex button{
+    background-color: var(--orange-color);
+    border-style: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.footer-list_flex{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
